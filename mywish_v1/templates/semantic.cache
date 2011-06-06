@@ -1,0 +1,23 @@
+;; Object templates/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "templates/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 'nil
+    :file "index.html"
+    :pointmax 26
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "user_register.html"
+    :major-mode 'html-mode
+    :tags 'nil
+    :file "user_register.html"
+    :pointmax 659
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

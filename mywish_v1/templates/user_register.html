@@ -1,0 +1,21 @@
+<form action="/user/register" method="post">
+  <label>邮箱</label>
+  <input name="email" id="email" />（邮箱不会对外公开）
+  <br />
+  <label>用户名</label>
+  <input name="user_name" id="user_name" />
+  <br />
+  <label>密码</label>
+  <input name="passwd" id="passwd" />
+  <br />
+  <label>确认密码</label>
+  <input name="passwd_verify" id="passwd_verify" />
+  <br />
+  <label>隐私</label>
+  <label>公开</label><input type="radio" name="privacy" id="privacy" value="yes" />
+  <label>不公开</label><input type="radio" name="privacy" id="privacy" value="no" />
+  <br />
+<input type="submit" value="注册" />
+</form>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}

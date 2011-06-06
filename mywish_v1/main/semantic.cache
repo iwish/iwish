@@ -1,0 +1,16 @@
+;; Object main/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "main/"
+  :tables (list 
+   (semanticdb-table "views.py"
+    :major-mode 'python-mode
+    :tags '(("django.shortcuts" include nil nil [1 48]) ("index" function (:arguments (("req" variable nil (reparse-symbol function_parameters) [60 63]))) nil [50 167]))
+    :file "views.py"
+    :pointmax 167
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

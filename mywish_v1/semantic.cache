@@ -1,0 +1,23 @@
+;; Object mywish_v1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mywish_v1/"
+  :tables (list 
+   (semanticdb-table "settings.py"
+    :major-mode 'python-mode
+    :tags '(("DEBUG" variable nil nil [43 55]) ("TEMPLATE_DEBUG" variable nil nil [56 78]) ("ADMINS" variable nil nil [80 138]) ("MANAGERS" variable nil nil [140 157]) ("DATABASE_ENGINE" variable nil nil [159 179]) ("DATABASE_NAME" variable nil nil [261 279]) ("DATABASE_USER" variable nil nil [337 355]) ("DATABASE_PASSWORD" variable nil nil [393 415]) ("DATABASE_HOST" variable nil nil [449 467]) ("DATABASE_PORT" variable nil nil [540 558]) ("TIME_ZONE" variable nil nil [919 948]) ("LANGUAGE_CODE" variable nil nil [1079 1102]) ("SITE_ID" variable nil nil [1104 1115]) ("USE_I18N" variable nil nil [1237 1252]) ("MEDIA_ROOT" variable nil nil [1350 1365]) ("MEDIA_URL" variable nil nil [1581 1595]) ("ADMIN_MEDIA_PREFIX" variable nil nil [1742 1772]) ("SECRET_KEY" variable nil nil [1827 1892]) ("TEMPLATE_LOADERS" variable nil nil [1970 2182]) ("MIDDLEWARE_CLASSES" variable nil nil [2184 2380]) ("ROOT_URLCONF" variable nil nil [2382 2413]) ("TEMPLATE_DIRS" variable nil nil [2415 2643]) ("INSTALLED_APPS" variable nil nil [2645 2841]))
+    :file "settings.py"
+    :pointmax 2842
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags '(("django.conf.urls.defaults" include nil nil [1 40]) ("urlpatterns" variable nil nil [153 869]))
+    :file "urls.py"
+    :pointmax 870
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )
